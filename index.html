@@ -2,13 +2,15 @@
 
 <body>
 <header/>
-<h2> Тестовая страница для запуска платежа ФКР Челябинской области </h2>
+<h2> Тестовая страница для запуска платежа в ВТБ Онлайн</h2>
+ 
+<h3> <br/> ФКР Челябинской области </h3>
  
 <p> <br/>После нажатия кнопки ОПЛАТИТЬ загрузится страница ИБ ВТБ Онлайн, <br/>            
  а после авторизации - сценарий платежа  ФКР Челябинской области<br/>
  (но почему-то сценарий запускается не всегда...)</p>
 
-            
+           
 <form method="post" action="https://online.vtb.ru/services/payment">
             <input type="hidden" name="OpCode" value="22500"/>
       <input type="hidden" name="Phone" value="110130801"/>
@@ -16,6 +18,7 @@
       <input type="submit" value=" ОПЛАТИТЬ "/>
 </form>
 
+ <h3> <br/>  МТС </h3>
  
 <form method="post" action="https://online.vtb.ru/services/payment">
  <input type="hidden" name="OpCode" value="2222" />
