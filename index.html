@@ -28,11 +28,11 @@
  <input type="submit" value=" ОПЛАТИТЬ МТС "/>
 </form>
 
-</body>
-
- <form method="post" id="shop_form" action="http://online.vtb.ru/services/payment">
-        <input type="hidden" name="PayInfo" 
-	value="<?xml version="1.0" encoding="UTF-8"?>
+	
+ <h3> <br/>  налоги </h3>
+ 
+<form method="post" action="https://online.vtb.ru/services/payment">
+ <input type="hidden" name="PayInfo" value="<?xml version="1.0" encoding="UTF-8"?>
 <PacketEPD xmlns="urn:cbr-ru:ed:v2.0" xmlns:dsig="urn:cbr-ru:dsig:v1.1" EDNo="76117419" EDDate="2021-09-30" EDAuthor="0000000001" EDQuantity="1" Sum="372898" SystemCode="99">
 	<ED101 TransKind="01" Priority="0" ReceiptDate="2021-09-30" PaytKind="0" Sum="372898">
 		<dsig:SigValue>Vglm3geFPYxW11S2tn2UMG/Rxr0LvKzU7ht6M2WvjEkdhRg7Lx5MXm17BGBpW1j5lu2fMbBR1i9wLjBQBbAtrg==</dsig:SigValue>
@@ -44,7 +44,14 @@
 			<Bank CorrespAcc="40102810945370000020" BIC="011708377"/>
 		</Payee>
 	</ED101>
-</PacketEPD>"
-/>
+</PacketEPD>" />
+ <input type="submit" value=" НАЛОГ "/>
+</form>
+	
+	
+	
+	
+</body>
+ 
 	       
 </html>
